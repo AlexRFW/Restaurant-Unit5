@@ -8,8 +8,8 @@ To run "Restaurant", download the source code, open with Xcode, and run on iOS s
 
 ## Running the app
 
-![Alt text](/doc/screenshot1.png "View menu, running on iPhone 8")
-![Alt text](/doc/screenshot2.png "Order list, running on iPhone 8")
+![Alt text](/doc/screenshot3.png "View menu, running on iPhone 8")
+![Alt text](/doc/screenshot4.png "Order list, running on iPhone 8")
 
 This app allows you to look at a menu and add items from specific cards to the order list. Once done, the user can submit the order to the server. Added own icons to make each tab clear.
 
