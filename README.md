@@ -22,4 +22,4 @@ This app allows you to look at a menu and add items from specific cards to the o
 
 ## Authors
 
-**Alex Witkamp** - March 9nd, 2018
+**Alex Witkamp** - March 9th, 2018
