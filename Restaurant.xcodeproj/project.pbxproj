@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2A171C22052A36000D25BBB /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A171C12052A36000D25BBB /* OrderConfirmationViewController.swift */; };
+		A2A171C420531C8B00D25BBB /* doc in Resources */ = {isa = PBXBuildFile; fileRef = A2A171C320531C8A00D25BBB /* doc */; };
+		A2A171C620531C9800D25BBB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A2A171C520531C9800D25BBB /* README.md */; };
 		A2A40BA52051620C008F4C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A40BA42051620C008F4C58 /* AppDelegate.swift */; };
 		A2A40BA72051620C008F4C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A40BA62051620C008F4C58 /* ViewController.swift */; };
 		A2A40BAA2051620C008F4C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A40BA82051620C008F4C58 /* Main.storyboard */; };
 		A2A40BAC2051620C008F4C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A40BAB2051620C008F4C58 /* Assets.xcassets */; };
 		A2A40BAF2051620C008F4C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A40BAD2051620C008F4C58 /* LaunchScreen.storyboard */; };
+		A2A40BB9205168DD008F4C58 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A40BB8205168DD008F4C58 /* MenuTableViewController.swift */; };
+		A2A40BBB205168EB008F4C58 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A40BBA205168EB008F4C58 /* OrderTableViewController.swift */; };
+		A2A40BBD20516AD6008F4C58 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A40BBC20516AD6008F4C58 /* CategoryTableViewController.swift */; };
+		A2A40BBF20516D12008F4C58 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A40BBE20516D12008F4C58 /* MenuItemDetailViewController.swift */; };
+		A2A40BC120516DDA008F4C58 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A40BC020516DDA008F4C58 /* MenuItem.swift */; };
+		A2A40BC320516EBE008F4C58 /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A40BC220516EBE008F4C58 /* IntermediaryModels.swift */; };
+		A2A40BC520517DC1008F4C58 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A40BC420517DC1008F4C58 /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2A171C12052A36000D25BBB /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
+		A2A171C320531C8A00D25BBB /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		A2A171C520531C9800D25BBB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A2A40BA12051620C008F4C58 /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A40BA42051620C008F4C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2A40BA62051620C008F4C58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,13 @@
 		A2A40BAB2051620C008F4C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A40BAE2051620C008F4C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A40BB02051620C008F4C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A40BB8205168DD008F4C58 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		A2A40BBA205168EB008F4C58 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		A2A40BBC20516AD6008F4C58 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		A2A40BBE20516D12008F4C58 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		A2A40BC020516DDA008F4C58 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		A2A40BC220516EBE008F4C58 /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
+		A2A40BC420517DC1008F4C58 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,8 @@
 		A2A40B982051620C008F4C58 = {
 			isa = PBXGroup;
 			children = (
+				A2A171C520531C9800D25BBB /* README.md */,
+				A2A171C320531C8A00D25BBB /* doc */,
 				A2A40BA32051620C008F4C58 /* Restaurant */,
 				A2A40BA22051620C008F4C58 /* Products */,
 			);
@@ -57,6 +79,14 @@
 				A2A40BA42051620C008F4C58 /* AppDelegate.swift */,
 				A2A40BA62051620C008F4C58 /* ViewController.swift */,
 				A2A40BA82051620C008F4C58 /* Main.storyboard */,
+				A2A40BBE20516D12008F4C58 /* MenuItemDetailViewController.swift */,
+				A2A40BC020516DDA008F4C58 /* MenuItem.swift */,
+				A2A40BC220516EBE008F4C58 /* IntermediaryModels.swift */,
+				A2A40BC420517DC1008F4C58 /* MenuController.swift */,
+				A2A40BBC20516AD6008F4C58 /* CategoryTableViewController.swift */,
+				A2A40BB8205168DD008F4C58 /* MenuTableViewController.swift */,
+				A2A40BBA205168EB008F4C58 /* OrderTableViewController.swift */,
+				A2A171C12052A36000D25BBB /* OrderConfirmationViewController.swift */,
 				A2A40BAB2051620C008F4C58 /* Assets.xcassets */,
 				A2A40BAD2051620C008F4C58 /* LaunchScreen.storyboard */,
 				A2A40BB02051620C008F4C58 /* Info.plist */,
@@ -124,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2A40BAF2051620C008F4C58 /* LaunchScreen.storyboard in Resources */,
+				A2A171C420531C8B00D25BBB /* doc in Resources */,
+				A2A171C620531C9800D25BBB /* README.md in Resources */,
 				A2A40BAC2051620C008F4C58 /* Assets.xcassets in Resources */,
 				A2A40BAA2051620C008F4C58 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +168,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A171C22052A36000D25BBB /* OrderConfirmationViewController.swift in Sources */,
+				A2A40BC120516DDA008F4C58 /* MenuItem.swift in Sources */,
+				A2A40BC520517DC1008F4C58 /* MenuController.swift in Sources */,
+				A2A40BB9205168DD008F4C58 /* MenuTableViewController.swift in Sources */,
+				A2A40BBF20516D12008F4C58 /* MenuItemDetailViewController.swift in Sources */,
+				A2A40BBB205168EB008F4C58 /* OrderTableViewController.swift in Sources */,
+				A2A40BC320516EBE008F4C58 /* IntermediaryModels.swift in Sources */,
+				A2A40BBD20516AD6008F4C58 /* CategoryTableViewController.swift in Sources */,
 				A2A40BA72051620C008F4C58 /* ViewController.swift in Sources */,
 				A2A40BA52051620C008F4C58 /* AppDelegate.swift in Sources */,
 			);
